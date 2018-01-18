@@ -93,4 +93,12 @@ Nôm na, Random IO sẽ có dạng đọc – tìm kiếm – viết – tìm ki
 
 *Lưu ý là mỗi lệnh đọc / viết / tìm kiếm sẽ mất 1 vòng xoay ổ dĩa*.
 
+- Kiểu copy file có dung lượng lớn gọi là kiểu READ/WRITE tuần tự, gọi là sequential, viết tắt seq READ/WRITE.
+
+- Kiểu copy nhiều file có dung lượng nhỏ gọi là kiểu READ/WRITE ngẫu nhiên, gọi là ramdom READ/WRITE, một thuật ngữ thường dùng khác nữa là 4k READ/WRITE.
+
+Tại sao là 4k?
+
+4k ở đây chính là nói đến những file hệ thống có dung lượng rất nhỏ , chỉ khoảng 4kB (~0.004MB), những file có dung lượng này được cho là ảnh hưởng lớn nhất đến tốc độ truy xuất của ổ cứng, chính vì thế người ta sử dụng thuật ngữ 4k để nói đến tốc độ truy xuất ngẫu nhiên
+
 => Do đó Random IO là “kẻ thù của ổ cứng”, máy ảo Cloud chạy HDD sẽ giật và lác do tốc độ rất thấp.
