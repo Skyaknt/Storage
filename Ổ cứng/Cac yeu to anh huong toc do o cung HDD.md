@@ -83,7 +83,7 @@ Vậy trong trường hợp xấu nhất, cứ 1 vòng xoay thì ổ HDD sẽ cu
 
 ![Imgur](https://i.imgur.com/24f9HjO.png)
 
-- O được gọi là **sequential** khi dữ liệu được đọc và ghi liên tiếp lên các bit gần nhau 
+- IO được gọi là **sequential** khi dữ liệu được đọc và ghi liên tiếp lên các bit gần nhau 
 của các sector liên tiếp nhau trên dĩa tròn. Sequential IO rất phù hợp với HDD. 
 Và chỉ có 2 dạng sequential IO: đọc – đọc – đọc – … -đọc và viết – viết – viết- …-viết
 
