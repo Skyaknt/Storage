@@ -51,7 +51,7 @@ trễ của trục quay và thời gian thực thi dòng lệnh từ hệ thốn
 ## 3. Tốc độ truy xuất dữ liệu ( the disk transfer rate )
 
 - Tốc độ truy xuất dữ liệu ( hay còn gọi là tỷ lệ truyền thông ) là tốc độ dữ liệu được đọc/ghi từ 
-ổ đĩa, đơn vị là **Megabyte per second (MBps). 
+ổ đĩa, đơn vị là **Megabyte per second (MBps)**. 
 
 - Các đĩa cứng hiện đại có tỷ lệ truyền đĩa tăng lên từ đường kính bên trong tới đường kính ngoài của đĩa. 
 Đây được gọi là kỹ thuật ghi âm theo vùng. Tấm đĩa càng có nhiều track thì càng có tốc độ cao.
